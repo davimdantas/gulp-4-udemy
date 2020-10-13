@@ -1,0 +1,22 @@
+{
+  "name": "gulp-4-udemy",
+  "version": "1.0.0",
+  "description": "I created this repo for help me follow this [Udemy](https://www.udemy.com/course/gulp-4-automate-your-development-workflow/learn/lecture/18113735#overview \"Gulp 4: Automate your development workflow\" ) course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davimdantas/gulp-4-udemy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davimdantas/gulp-4-udemy/issues"
+  },
+  "homepage": "https://github.com/davimdantas/gulp-4-udemy#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
