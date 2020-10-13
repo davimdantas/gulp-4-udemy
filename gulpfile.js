@@ -1,11 +1,9 @@
-const {task, src} = require('gulp');
+const gulp = require('gulp');
+const sass = require('gulp-sass');
 
-task("task-1", function(done) {
-    console.log("Task 1 is completed")
-    done()
-})
-
-
-task("task-2", function() {
-    return src("./digits.txt")
-})
+gulp.task('sass', function () {
+    return gulp
+        .src('./src/sass/main.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('./dist/css'));
+});
